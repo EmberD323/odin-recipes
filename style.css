@@ -1,0 +1,23 @@
+body {
+    font-family: "Lucida Handwriting",sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(39, 104, 9);
+    color: white;
+   
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.make{
+    background-color: rgb(168, 230, 144);
+}
+
+.fake{
+    background-color: rgb(236, 185, 117);
+}
