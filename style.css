@@ -1,23 +1,51 @@
 body {
-    font-family: "Lucida Handwriting",sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    border: 10px;
+    border-color: black;
+    
+    
 }
 
+
 h1 {
-    text-align: center;
-    background-color: rgb(39, 104, 9);
-    color: white;
-   
+    display:grid;
+    margin:auto 0;
+    justify-content: center;
+    background-color: rgb(197, 214, 189);
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+
+}
+
+.recipecard {
+    width: 558px;
+    border: 3px solid rgb(197, 214, 189);
+    background-color: rgb(237, 237, 237);
+    
 }
 
 p {
     font-size: 20px;
     text-align: center;
+   
 }
 
-.make{
-    background-color: rgb(168, 230, 144);
+/*.make{
+    background-color: rgb(219, 219, 219);
 }
 
 .fake{
-    background-color: rgb(236, 185, 117);
+    background-color: rgb(219, 219, 219);
+}*/
+
+.image{
+    display: block;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid rgb(197, 214, 189)
 }
